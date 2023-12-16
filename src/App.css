@@ -1,0 +1,76 @@
+/* App.css dosyanızın içeriği */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ecf0f1;
+  }
+  
+  #all {
+    margin: 0 auto;  
+    max-width: 1200px;  
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  .fixed-image {
+    text-align: end;
+    margin: 10px 0;
+    position: fixed;
+    right: 20px; /* Sağa ne kadar kayacaksa onu ayarlayabilirsin */
+    top: 20px;  /* Yukarı ne kadar kayacaksa onu ayarlayabilirsin */
+  }
+  
+  #contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #contact li {
+    margin-bottom: 10px;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .fixed-image {
+    margin-right: 120px; 
+  }
+  
+  @media (max-width: 768px) {
+    .content-wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .fixed-image {
+      margin: 5px 0;
+      position: relative;
+      right: 0;
+      top: 0;
+    }
+  }
+  
